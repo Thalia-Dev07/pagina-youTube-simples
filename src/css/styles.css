@@ -1,0 +1,195 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+nav section#menu-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  background: #fff;
+  height: 56px;
+  width: 100%;
+}
+
+#menu-nav .left-nav {
+  display: flex;
+  gap: 30px;
+  margin-left: 20px;
+  width: 146px;
+  height: 24px;
+}
+
+#menu-nav .navbar {
+  width: 404px;
+  height: 40px;
+  margin-top: 10px;
+}
+
+#menu-nav .right-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 20px 0 0;
+  width: 130px;
+  height: 34;
+}
+
+#menu-nav .right-nav .avatar {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+}
+
+/* MAIN SECTION CONTAINER  */
+
+main {
+  display: flex;
+  gap: 10px;
+}
+
+main section#container {
+  display: block;
+  width: 952px;
+  height: 746px;
+  margin: 84px 10px 0 75px;
+  float: left;
+}
+
+#container .tela iframe {
+  width: 930px;
+  height: 537px;
+}
+
+#container h1 {
+  font-weight: 600;
+  font-size: 1.25rem;
+  margin-top: 20px;
+}
+
+#container .menu-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  width: 56.58rem;
+  height: 2.63rem;
+}
+
+#container .menu-container .dio {
+  width: 10rem;
+  height: 2.66rem;
+}
+
+#container .menu-container button {
+  width: 10rem;
+  height: 2.5rem;
+  border-radius: 2px;
+  border: none;
+  font-size: 0.87rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  background-color: #cc0000;
+  color: #fff;
+}
+
+#container .menu-container .gostei {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  width: 4rem;
+  height: 1.5rem;
+}
+
+#container .menu-container .gostei span {
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+#container .menu-container .gostei svg:hover {
+  fill: blue;
+}
+
+#container .menu-container .nao-gostei {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  width: 6.2rem;
+  height: 1.5rem;
+}
+
+#container .menu-container .nao-gostei svg:hover {
+  fill: blue;
+}
+
+#container .menu-container .nao-gostei span {
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+#container .menu-container .compartilhar {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  width: 7.18rem;
+  height: 1.5rem;
+}
+
+#container .menu-container .compartilhar span {
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+#container .menu-container .download {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  width: 7rem;
+  height: 1.5rem;
+}
+
+#container .menu-container .download span {
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+#container h4 {
+  margin: 20px 0;
+}
+
+#container p {
+  width: 32rem;
+  height: 4rem;
+  text-align: justify;
+}
+
+/* ASIDE SECTION CONTEINER-LATERAL  */
+
+aside#conteiner-lateral {
+  display: flex;
+  flex-direction: column;
+  margin-top: 84px;
+  gap: 10px;
+}
+
+aside#conteiner-lateral div {
+  display: flex;
+  gap: 10px;
+}
+
+#conteiner-lateral div span {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+#conteiner-lateral div p {
+  font-size: 12px;
+}
+
+#conteiner-lateral .info {
+  display: flex;
+  flex-direction: column;
+}
